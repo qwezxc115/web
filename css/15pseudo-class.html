@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* nth-child(n) : body에서 n번째 element 선택 */
+        h1:nth-child(1){
+            color: red;
+        }
+
+        p:nth-child(4){
+            color: yellow;
+        }
+
+        h1:nth-child(odd){
+            text-decoration: underline;
+        }
+
+        p:nth-child(even){
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <!-- h1*3>lorem3^p*3>lorem3 -->
+    <h1>Lorem, ipsum dolor.</h1>
+    <h1>Officiis, dolorum neque!</h1>
+    <h1>Eligendi, quisquam numquam.</h1>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Voluptatibus, rem magnam?</p>
+    <p>Sequi, quibusdam facere.</p>
+</body>
+</html>

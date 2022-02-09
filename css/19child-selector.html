@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        li{
+            background-color: gold;
+        }
+        /* ul안에 li만(단 자식으로 있을 경우만) */
+        ul > li{
+            text-decoration: line-through;
+        }
+
+        ol>li{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ul>li*3>lorem1^^ol>li*3>lorem1 -->
+    <ul>
+        <li>Lorem.</li>
+        <li>Culpa.</li>
+        <li>Sed.</li>
+    </ul>
+    <ol>
+        <li>Lorem.</li>
+        <li>Quae!</li>
+        <li>Optio.</li>
+    </ol>
+</body>
+</html>
