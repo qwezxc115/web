@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <style>
+        .menu1 {
+            display: flex;
+            background-color: white;
+            justify-content: space-between;
+        }
+
+        .menu2 {
+            display: flex;
+            background-color: rgb(58, 57, 73);
+            justify-content: space-between;
+        }
+
+        .menu-item1 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 7px 15px;
+            text-align: center;
+            color: black;
+            box-sizing: border-box;
+
+        }
+
+        .menu-item2 {
+            font-size: 15px;
+            font-weight: bold;
+            padding: 15px 15px;
+            text-align: center;
+            color: white;
+            box-sizing: border-box;
+
+        }
+
+        .left-menu1,
+        .right-menu1 {
+            display: flex;
+        }
+
+        .left-menu2,
+        .right-menu2 {
+            display: flex;
+        }
+
+        .menu-item1:hover {
+            background-color: lightgreen;
+        }
+
+        .menu-item2:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu1">
+        <div class="left-menu1">
+            <div class="menu-item1">Lorem.</div>
+            <div class="menu-item1">Voluptas.</div>
+            <div class="menu-item1">Enim.</div>
+            <div class="menu-item1">Lorem.</div>
+            <div class="menu-item1">Adipisci.</div>
+        </div>
+        <div class="right-menu1">
+            <div class="menu-item1">Lorem.</div>
+            <div class="menu-item1">Fuga!</div>
+            <div class="menu-item1">Lorem.</div>
+        </div>
+    </div>
+    <!-- .menu2>.left-menu2>(.menu-item2>lorem1)*17^^.right-menu2>(.menu-item2>lorem1)*3 -->
+    <div class="menu2">
+        <div class="left-menu2">
+            <div class="menu-item2">Lorem.</div>
+            <div class="menu-item2">Velit?</div>
+            <div class="menu-item2">Corrupti?</div>
+            <div class="menu-item2">Aliquid.</div>
+            <div class="menu-item2">Magnam.</div>
+            <div class="menu-item2">Eius!</div>
+            <div class="menu-item2">Delectus!</div>
+            <div class="menu-item2">Aut.</div>
+            <div class="menu-item2">Libero.</div>
+            <div class="menu-item2">Distinctio.</div>
+            <div class="menu-item2">Eaque.</div>
+            <div class="menu-item2">Omnis!</div>
+            <div class="menu-item2">Maxime?</div>
+            <div class="menu-item2">Quas?</div>
+            <div class="menu-item2">Repellat.</div>
+            <div class="menu-item2">Commodi?</div>
+            <div class="menu-item2">Iusto.</div>
+        </div>
+        <div class="right-menu2">
+            <div class="menu-item2">Lorem.</div>
+            <div class="menu-item2">Error?</div>
+            <div class="menu-item2">Mollitia.</div>
+        </div>
+    </div>
+
+    <!-- .body-container>.side-menu-container+.main-content+.ad-container -->
+    
+    <style>
+        .side-menu-title{
+            font-weight: bold;
+            font-size: 20px;
+            box-sizing: border-box;
+            padding: 5px;
+            background-color: lightgrey;
+            width: 150px;
+
+        }
+
+        .side-menu{
+            font-size: 15px;
+            padding: 5px;
+            text-align: left;
+            color: black;
+            box-sizing: border-box;
+            background-color: lightgrey;
+            width: 150px;
+        }
+
+        .side-menu:hover{
+            background-color: grey;
+        }
+
+        .body-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .ad-container{
+            align-items: center;
+            display: flex;
+        }
+    </style>
+    <div class="body-container">
+        <div class="side-menu-container">
+            <div class="side-menu-title">Side Menu</div>
+            <div class="side-menu">Lorem.</div>
+            <div class="side-menu">Quia?</div>
+            <div class="side-menu">Ratione!</div>
+            <div class="side-menu">Magnam.</div>
+            <div class="side-menu">Corporis.</div>
+            <div class="side-menu">Rem.</div>
+            <div class="side-menu">Aspernatur?</div>
+            <div class="side-menu">Mollitia.</div>
+            <div class="side-menu">Earum.</div>
+            <div class="side-menu">Nemo.</div>
+            <div class="side-menu">Beatae.</div>
+            <div class="side-menu">At!</div>
+            <div class="side-menu">Inventore!</div>
+            <div class="side-menu">Eos!</div>
+            <div class="side-menu">Blanditiis?</div>
+            <div class="side-menu">Velit.</div>
+            <div class="side-menu">Facere.</div>
+            <div class="side-menu">Quo!</div>
+            <div class="side-menu">Provident.</div>
+            <div class="side-menu">Eius.</div>
+            <div class="side-menu">Rerum.</div>
+            <div class="side-menu">Aliquam.</div>
+            <div class="side-menu">Sequi?</div>
+            <div class="side-menu">Eos!</div>
+            <div class="side-menu">Corporis!</div>
+            <div class="side-menu">Omnis.</div>
+            <div class="side-menu">Dolorum.</div>
+            <div class="side-menu">Optio.</div>
+            <div class="side-menu">Repudiandae?</div>
+            <div class="side-menu">Nemo?</div>
+        </div>
+        <div class="main-content">
+            <p>실</p>
+            <p>습</p>
+            <p>용</p>
+            <p>홈</p>
+            <p>페</p>
+            <p>이</p>
+            <p>지</p>
+        </div>
+        <div class="ad-container">
+            <img src="../html/네이버 모자.jpg">
+        </div>
+    </div>
+
+</body>
+
+</html>
