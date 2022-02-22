@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+        integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #para2, #para5, #para8 {
+            display: none;
+        }
+    </style>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#button1").click(function () {
+                $("#para1").slideUp();
+            });
+
+            $("#button2").click(function () {
+                $("#para2").slideDown();
+            });
+            
+            $("#button3").click(function () {
+                $("#para3").slideToggle();
+            });
+                        
+            $("#button4").click(function () {
+                $("#para4").slideUp("slow");
+            });
+                        
+            $("#button5").click(function () {
+                $("#para5").slideDown("slow");
+            });
+                        
+            $("#button6").click(function () {
+                $("#para6").slideToggle("slow");
+            });
+                        
+            $("#button7").click(function () {
+                $("#para7").slideUp("fast");
+            });
+                        
+            $("#button8").click(function () {
+                $("#para8").slideDown("fast");
+            });
+                        
+            $("#button9").click(function () {
+                $("#para9").slideToggle("fast");
+            });
+                        
+            $("#button10").click(function () {
+                $("#para10").slideToggle(3000);
+            });
+
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <!-- (button#button$+p#para$>lorem^br)*10 -->
+    <button id="button1">slideUp</button>
+    <p id="para1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio commodi cupiditate soluta,
+        doloremque, quibusdam vel esse, molestiae consequuntur a voluptate. Rem enim tenetur ea maxime cum. Dicta,
+        voluptate fugiat.
+    </p>
+    <br>
+    <button id="button2">slideDown</button>
+    <p id="para2">
+        Quae exercitationem excepturi aperiam rerum? Earum natus vitae optio ratione, beatae odio recusandae repudiandae
+        minus cumque nulla, aperiam dolore voluptatum, quod maiores veniam. Harum sunt at autem. Veniam, autem
+        molestias.
+    </p>
+    <br>
+    <button id="button3">slideToggle</button>
+    <p id="para3">
+        Aperiam quis numquam architecto officia suscipit iste maiores sit ullam omnis rem praesentium in, repellat iure
+        incidunt voluptatibus quas iusto ut. Laboriosam numquam consequuntur natus aliquid qui at facilis eligendi.
+    </p>
+    <br>
+    <button id="button4">slideUp slow</button>
+    <p id="para4">
+        Enim modi facilis quidem ipsa eius obcaecati illum nobis ullam aut nulla! Magni, libero doloribus reiciendis
+        praesentium animi nemo asperiores nobis adipisci cupiditate ex commodi eligendi laborum natus nulla a?
+    </p>
+    <br>
+    <button id="button5">slideDown slow</button>
+    <p id="para5">
+        Possimus fuga, obcaecati non provident similique aspernatur nemo doloribus quaerat tempora veniam. Quo similique
+        assumenda modi et nulla, reprehenderit nam ab repudiandae hic voluptate nesciunt illo sunt velit dolore non.
+    </p>
+    <br>
+    <button id="button6">slideToggle slow</button>
+    <p id="para6">
+        Veritatis quas nostrum consectetur odio minima omnis facilis nam odit neque aperiam. Nesciunt aliquid ipsum
+        dolor repellat non, laboriosam ratione eos placeat maxime assumenda recusandae, ut illo et iure quas?
+    </p>
+    <br>
+    <button id="button7">slideUp fast</button>
+    <p id="para7">
+        Quam, delectus expedita, perferendis in ex voluptatibus illo cum consequuntur consectetur dolores minus, error
+        excepturi quasi similique nobis neque nostrum laborum autem placeat. Quos nihil nulla officiis voluptates
+        inventore delectus?
+    </p>
+    <br>
+    <button id="button8">slideDown fast</button>
+    <p id="para8">
+        Iusto eum nostrum repellat sapiente at, incidunt expedita natus. Nihil, deserunt delectus ad adipisci accusamus
+        omnis sint quas aliquid perferendis eos ea ipsam culpa molestias fugiat veritatis odio repudiandae aliquam!
+    </p>
+    <br>
+    <button id="button9">slideToggle fast</button>
+    <p id="para9">
+        Nulla cupiditate iusto quibusdam harum laboriosam, aut molestiae assumenda hic alias ut temporibus natus magnam,
+        tenetur impedit deserunt animi accusamus ea architecto fuga fugit quis optio. Eius consequatur asperiores
+        doloremque.
+    </p>
+    <br>
+    <button id="button10">slideToggle 3m/s</button>
+    <p id="para10">
+        Culpa beatae commodi labore laborum soluta sed harum, repellendus itaque consequatur fugiat architecto
+        reprehenderit sit ea ab vel natus laudantium accusamus sequi nam repellat dignissimos consectetur minima!
+        Expedita, facilis illo.
+    </p>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
